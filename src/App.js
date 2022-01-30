@@ -41,7 +41,7 @@ function App() {
                   <th>We Sell</th>
                 </tr>
               </thead>
-
+              
             {Object.keys(data.rates).map((el)=>{
               const exchange = data.rates[el]
               const weBuy = Number(exchange * 0.05) + Number(exchange)
